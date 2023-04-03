@@ -20,5 +20,5 @@ npm run start
 >http://localhost:3000/login
 
 ### Switching to signup page
->http://localhost:3000/login
+>http://localhost:3000/signup
 

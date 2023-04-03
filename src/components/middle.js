@@ -1,9 +1,4 @@
 import React from "react";
-import cre from "./cre.jpg";
-import chris from "./chris.jpg";
-
-
-
 
 function Middle(){
 
@@ -25,9 +20,9 @@ function Middle(){
         display:"flex",
         alignItems:"center",
         flexDirection:"column",
-        
-        
-        
+
+
+
     }
     const second ={
         height:"70px",
@@ -41,15 +36,15 @@ function Middle(){
     return(<div style={main}>
         <div style={{display:"flex",width:"200px"}}>
             <div style={top}>
-                <img className ="pic" src={cre} style={img}/>
+                <img className ="pic" src={require("../images/cre.jpg")} style={img}/>
                 <p style={{marginTop:"0px", fontSize:"12px"}}>cristiano</p>
             </div>
             <div style={second}>
-                <img className ="pic" src={chris} style={img}/>
+                <img className ="pic" src={require("../images/chris.jpg")} style={img}/>
                 <p style={{marginTop:"0px", fontSize:"12px"}}>chrisbrown</p>
             </div>
         </div>
-       
+
 
     </div>
     );

@@ -110,7 +110,8 @@ body{
   color:#fff;
   background:#3897f0;
   border:none;
-  border-radius:3px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .logo {

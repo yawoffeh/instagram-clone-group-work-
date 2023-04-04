@@ -1,8 +1,9 @@
 import React from "react";
-import pre from "../images/pre.jpg";
-import '../App.css';
-import mbappe from "../images/mbappe.jpg";
-import jame from "../images/jame.jpg"
+import pre from "./pre.jpg";
+import './App.css';
+import mbappe from "./mbappe.jpg";
+import jame from "./jame.jpg";
+import girl from "./girl.jpg"
 
 
 function Side(){
@@ -20,7 +21,7 @@ function Side(){
     const thumb ={
         height: "60px",
         borderRadius: "30px",
-
+    
     }
     const word ={
         display:"flex"
@@ -64,7 +65,7 @@ function Side(){
     const rest ={
         lineHeight:"0px",
         marginBottom:"12px",
-        fontWeight:"bold",
+        fontWeight:"bold", 
         fontSize:"14px"
 
     }
@@ -77,7 +78,7 @@ function Side(){
         height:"40px",
         borderRadius: "20px",
     }
-
+   
     const follow ={
         color: "rgb(29, 155, 240)",
         marginLeft:"80px",
@@ -98,7 +99,7 @@ function Side(){
     }
     return(
         <div className="side" style={color}>
-            <div style={mini}>
+            <div style={mini}> 
                 <div style={first}>
                     <img  style={thumb} src={pre} />
                     <div style={word}>
@@ -108,7 +109,7 @@ function Side(){
                         </div>
                         <p style={swit}>Switch</p>
                     </div>
-
+                    
                 </div>
                 <div style={suggy}>
                     <p style={sug}>Suggestions for you</p>
@@ -118,41 +119,41 @@ function Side(){
                     <img  style={pic} src={jame}/>
                     <div style={mer}>
                         <div style={{marginLeft:"10px"}} >
-                            <p style={rest}>kmbappe</p>
+                            <p style={rest}>jame_456</p>
                             <p style={restie}>follows you</p>
                         </div>
-
+                        
                         <p style ={follow}>follow</p>
                     </div>
-
+                    
                 </div>
                 <div style={lower}>
-                    <img  style={pic} src={jame}/>
+                    <img  style={pic} src={mbappe}/>
                     <div style={mer}>
                         <div style={{marginLeft:"10px"}} >
                             <p style={rest}>kmbappe</p>
                             <p style={restie}>follows you</p>
                         </div>
-
+                        
                         <p style ={follow}>follow</p>
                     </div>
-
+                    
                 </div>
                 <div style={lower}>
-                    <img  style={pic} src={jame}/>
+                    <img  style={pic} src={girl}/>
                     <div style={mer}>
                         <div style={{marginLeft:"10px"}} >
-                            <p style={rest}>kmbappe</p>
+                            <p style={rest}>kuzmi_12</p>
                             <p style={restie}>follows you</p>
                         </div>
-
+                        
                         <p style ={follow}>follow</p>
                     </div>
-
+                    
                 </div>
                 <div style={link}>
                     <a style={{textAlign:"left"}}>
-                    About &#183; Help&#183;Press &#183; API &#183;Jobs  &#183; Privacy  &#183; Terms
+                    About &#183; Help&#183;Press &#183; API &#183;Jobs  &#183; Privacy  &#183; Terms 
                     </a>
                     <a style={{marginTop:"4px"}}>location  &#183; Language  &#183; Meta Verified </a>
                 </div>
@@ -160,8 +161,8 @@ function Side(){
                     <a>&#169; 2023 INSTAGRAM FROM META .</a>
                 </div>
             </div>
-
-
+            
+            
 
         </div>
     );

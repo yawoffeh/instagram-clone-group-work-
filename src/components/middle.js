@@ -1,16 +1,16 @@
 import React from "react";
-import cre from "./cre.jpg";
-import chris from "./chris.jpg";
-import cr from "./cr.jpg";
+import cre from "../images/cre.jpg";
+import chris from "../images/chris.jpg";
+import cr from "../images/cr.jpg";
 import {AiOutlineHeart} from "react-icons/ai";
 import {TbMessageCircle2} from "react-icons/tb";
 import {SlPaperPlane} from "react-icons/sl";
 import {BsBookmark} from "react-icons/bs";
-import "./App.css";
-import correct from "./correct.png";
-import lauren from "./lauren.jpg";
-import small from "./small.jpg";
-import bieber from "./bieber.jpg";
+import "../App.css";
+import correct from "../images/correct.png";
+import lauren from "../images/lauren.jpg";
+import small from "../images/small.jpg";
+import bieber from "../images/bieber.jpg";
 
 
 function Middle(){

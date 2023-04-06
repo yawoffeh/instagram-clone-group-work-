@@ -1,9 +1,9 @@
 import React from "react";
-import pre from "./pre.jpg";
-import './App.css';
-import mbappe from "./mbappe.jpg";
-import jame from "./jame.jpg";
-import girl from "./girl.jpg"
+import pre from "../images/pre.jpg";
+import '../App.css';
+import mbappe from "../images/mbappe.jpg";
+import jame from "../images/jame.jpg";
+import girl from "../images/girl.jpg"
 
 
 function Side(){

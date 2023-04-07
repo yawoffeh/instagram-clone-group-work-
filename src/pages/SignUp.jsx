@@ -14,7 +14,7 @@ const SignUp = () => {
       <div class="logo">
         <img src="https://www.sirendesign.com.au/wp-content/themes/siren/library/images/instagram-logo.png" alt="" />
       </div>
-      <h2 style={insta}>Instagram</h2>
+      <img id="instafont" src={require("../images/instafont.PNG")} />
       <p style={{alignText: "center"}}>
       Sign up to see photos and videos <br /> from your friends.
       <div className="buttons">

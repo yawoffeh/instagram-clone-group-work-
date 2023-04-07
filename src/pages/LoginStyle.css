@@ -22,13 +22,20 @@ body {
 }
 
 .phoneapp {
-    margin-left: auto;
-    margin-right: none;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .container1 {
     display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    width: 40%;
     border-width: 1px;
     border-style: solid;
     width: 360px;
@@ -41,16 +48,15 @@ body {
 }
 
 #instafont {
-    margin-top: 12px;
-    margin-bottom: 10px;
     width: 220px;
     height: 80px;
-    align-self: center;
+    margin-top: 20px;
 }
 
 input {
     border-radius: 5px;
     border-width: 1px;
+    align-self: center;
     border-style: solid;
     border-color: rgb(218, 213, 213);
     width: 280px;
@@ -84,7 +90,7 @@ input {
     color: rgb(95, 91, 91);
     text-align: center;
     font-size: 13px;
-    margin-top: -5px;
+    margin: 3px auto;
 }
 
 #login {
@@ -112,10 +118,10 @@ input {
     padding: 0px;
 }
 
-#fb {
+.fb {
     height: 40px;
     width: 150px;
-    margin-top: -20px;
+    margin: 5px auto;
 }
 
 #forgot-ps {

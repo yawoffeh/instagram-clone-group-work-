@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {GrHomeRounded} from "react-icons/gr";
 import {TbSearch} from "react-icons/tb";
 import {MdOutlineExplore} from "react-icons/md";
@@ -34,7 +35,9 @@ function Sidebar(){
     let insta ={
         fontFamily:"'Billabong', sans-serif",
         fontSize:"32px",
-        fontWeight:"lighter"
+        fontWeight:"lighter",
+        textDecoration: "none",
+        color: "black",
     }
     let span ={
         fontSize:"26px"
@@ -89,7 +92,7 @@ function Sidebar(){
         <div style={side}>
 
             <ul style={link}>
-                <li><a style={insta}>Instagram</a></li>
+                <li><Link to="/" style={insta}>Instagram</Link></li>
                 <li><a style={a}><span style={span}><GrHomeRounded/> </span> Home</a></li>
                 <li><a style={a}><span style={span}><TbSearch/></span>  Search</a></li>
                 <li><a style={ex}><span style={span}><BiMoviePlay/></span>  Explore</a></li>
